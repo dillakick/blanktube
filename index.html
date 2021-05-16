@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>BlankTube</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all" />
+  </head>
+  <body>
+    <h1>BlankTube</h1>
+    <div class="video">
+      <p></p>
+      <video id="myVideo" width="320" height="240">
+        <source
+          src="https://www.w3schools.com/tags/movie.mp4"
+          type="video/mp4"
+        />
+        <source
+          src="https://www.w3schools.com/tags/movie.ogg"
+          type="video/ogg"
+        />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div class="controls">
+      <button onclick="playVid()" type="button">Play Video</button>
+      <button onclick="pauseVid()" type="button">Pause Video</button><br />
+      <small></small><br />
+      <form name="myForm" >
+        <input type="text" name="video"/>
+        <button type="button" onclick="validateForm();">submit</button>
+      </form>
+    </div>
+    <script src="/video.js"></script>
+  </body>
+</html>

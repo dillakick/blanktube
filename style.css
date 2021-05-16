@@ -1,0 +1,40 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* adjust typography defaults */
+body {
+  font-family: sans-serif;
+}
+
+.controls {
+  background: grey;
+  padding: 5px;
+  width: 25%;
+  margin: auto;
+  border: 1px solid black;
+  border-top: 0px;
+}
+
+.video {
+  border: 1px solid black;
+  padding: 5px;
+  width: 25%;
+  margin: auto;
+  background: darkgrey;
+}
+
+p {
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  text-align: left;
+  font-weight: bold;
+}
